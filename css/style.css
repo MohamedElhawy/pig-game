@@ -35,6 +35,13 @@ body
     align-items: center;
     justify-content: center;
     font-family: sansita , sans-serif;
+    background: whitesmoke;
+}
+
+
+.hidden
+{
+    display: none;
 }
 
 
@@ -153,10 +160,35 @@ body
     box-shadow: 0 1px 1px rgb(0 0 0 / 50%);
     cursor: pointer;
 }
+.newGameBtn
+{
+    top: 4%;
 }
-.rollDiceBtn{
-    top: 54%;
+.rollDiceBtn
+{
+    top: 56%;
 }
-.holdBtn{
-    top: 63%;
+.holdBtn
+{
+    top: 68%;
+    width: 10%;
+}
+.newGameBtn:active , .rollDiceBtn:active , .holdBtn:active
+{
+    transform: translate(-50%, 2px);
+}
+
+
+
+/* dicr img */
+.diceImg
+{
+    background-image: url(../resources/assets/dice1.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
