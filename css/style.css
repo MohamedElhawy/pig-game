@@ -192,3 +192,65 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+/* responsize design (max-width: 420px) : PIXEL 2 XL (Avg for mobile phones) */
+@media screen and (max-width: 420px)
+{
+
+    .gameContainer
+    {
+        width: 85%;
+        height: 40%;
+    }
+
+    .player1-container , .player2-container
+    {
+        padding: 15px;
+    }
+    .player1-header , .player2-header
+    {
+        font-size: 25px;
+    }
+    .player1-total-points , .player2-total-points
+    {
+        font-size: 25px !important;
+    }
+    .player1-points , .player2-points
+    {
+        width: 70%;
+        height: 25%;
+        font-size: 25px;
+    }
+
+
+    .newGameBtn
+    {
+        top: 7%;
+        padding: 5px;
+        width: 20%;
+        height: 9%;
+        font-size: 8px;
+    } 
+    .rollDiceBtn
+    {
+        top: 58%;
+        padding: 5px;
+        width: 17%;
+        height: 9%;
+        font-size: 8px;
+    }
+    .holdBtn
+    {
+        top: 68%;
+        padding: 5px;
+        width: 13%;
+        height: 7%;
+        font-size: 8px;
+    }
+
+
+
+
+}
